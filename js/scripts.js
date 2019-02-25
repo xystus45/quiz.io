@@ -1,12 +1,12 @@
 var answers =["Negative Infinity is a number in JavaScript which can be derived by dividing negative number by zero",  "To submit a form using JavaScript use document.form[0].submit();"," //for Single line 'This' keyword refers to the object from where it was called", "Netscape "];
-var pointsPerCorrect = 15;
+var pointsPerCorrect = 20;
 
 function percentage(score) {
-return "your score is " + parseInt((score / 75) * 100) + "%";
+return "your score is " + parseInt((score / 80) * 100) + "%";
 }
 
 $(document).ready(function(){
-  $("#questions").submit(function (event) {
+  $("#question").submit(function (event) {
 
 
     $('#results').text('');
