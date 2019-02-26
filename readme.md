@@ -1,5 +1,4 @@
 # JavaScript Quiz
-
 This project is a test on JavaScript whereby one is graded on finishing.
 
 ## Getting Started
@@ -11,8 +10,6 @@ One needs a web browser that will accept the u.r.l to run the program online
    +chrome
    +Firefox Web Browser
    +safari
-
-
 
 ## Running the tests:
 User chooses an answer from each question
