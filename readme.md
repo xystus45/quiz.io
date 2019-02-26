@@ -3,7 +3,7 @@
 This project is a test on JavaScript whereby one is graded on finishing.
 
 ## Getting Started
-get a copy of my u.r.l in my Github account[https://github.com/xystus45] "xystus45" then run it in u.r.l web browser to do the test
+Get a copy of my u.r.l in my Github account[https://github.com/xystus45] "xystus45" then run it in u.r.l web browser to do the test
 
 ### Prerequisites
 one needs a web browser that will accept the u.r.l to run the program online
