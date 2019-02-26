@@ -40,7 +40,7 @@ have a internet connection and the link to the "test website" from the url
 
 This project is licensed under the MIT License
 
-## Acknowledgments
+## Acknowledgments:
 
 * it was a challenging but brainstorming project
 * “ Code is like humor. When you have to explain it, it’s bad.” – Cory House
