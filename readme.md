@@ -33,7 +33,7 @@ have a internet connection and the link to the "test website" from the url
 
 ## Authors
 
-* **xystus ngigi** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)[change]
+* **XYSTUS NGIGI** - *Initial work* - [javascript] [https://xystus45.github.io/quiz.io/.]
 
 
 ## License
@@ -42,5 +42,5 @@ This project is licensed under the MIT License
 
 ## Acknowledgments
 
-* it was a challanging but brainstorming project
+* it was a challenging but brainstorming project
 * “ Code is like humor. When you have to explain it, it’s bad.” – Cory House
