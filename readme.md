@@ -26,7 +26,7 @@ Have a internet connection and the link to the "test website" from the Uniform R
 
 ## Built With:
 
-* terminal:This where i placed my commands and placed my commitments;this is where my points come from.
+* Terminal:This where i placed my commands and placed my commitments;this is where my points come from.
 * Github:This was used to track changes done on the computer and update on my github online work
 * atom:This was the text editor used to write the code used to create the project
 
