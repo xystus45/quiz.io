@@ -19,7 +19,6 @@ User chooses an answer from each question
 * User submits answers by choosing any choice
 * User is given a score at the end depending on the answer he/she gave
 
-
 ## Deployment:
 
 Have a internet connection and the link to the "test website" from the Uniform Resource Locator (URL)
