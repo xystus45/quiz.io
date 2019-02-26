@@ -31,7 +31,7 @@ have a internet connection and the link to the "test website" from the Uniform R
 * atom:This was the text editor used to write the code used to create the project
 
 
-## Authors
+## Authors:
 
 * **XYSTUS NGIGI** - *Initial work* - [javascript] [https://xystus45.github.io/quiz.io/.]
 
