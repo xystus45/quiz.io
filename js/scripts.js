@@ -1,51 +1,28 @@
-var answers =["Negative Infinity is a number in JavaScript which can be derived by dividing negative number by zero",  "To submit a form using JavaScript use document.form[0].submit();"," //for Single line 'This' keyword refers to the object from where it was called", "Netscape "];
-var pointsPerCorrect = 20;
-
-function percentage(score) {
-return "your score is " + parseInt((score / 80) * 100) + "%";
+function addition(q1,q2,q3,q4,q5){
+ return q1+q2+q3+q4+q5;
 }
-
 $(document).ready(function(){
-  $("#question").submit(function (event) {
-
-
-    $('#results').text('');
-    var score = 0;
-    var answer1 = ($("input[type=radio][name=question1Answer]:checked").val());
-    var answer2 = ($("input[type=radio][name=question2Answer]:checked").val());
-    var answer3 = ($("input[type=radio][name=question3Answer]:checked").val());
-    var answer4 = ($("input[type=radio][name=question4Answer]:checked").val());
-    var answer5 = ($("input[type=radio][name=question5Answer]:checked").val());
-
-
-    if (answer1 === undefined || answer2 === undefined || answer3 === undefined || answer4 ===undefined || answer5 ===undefined) {
-$('#questionsIncomplete').text('Please Complete questions Before Submitting');
-$('#questionsIncomplete').fadeOut(10000);
-} else {
-   if (answer1 === answers[0]) {
-score += pointPerCorrect;
-}
-   if (answer2 === answers[1]) {
-score += pointPerCorrect;
-}
-   if (answer3 === answers[2]) {
-score += pointPerCorrect;
-}
-if (answer4 === answers[3]) {
-score += pointPerCorrect;
-}
-if (answer5 === answers[4]) {
-score += pointPerCorrect;
-}
-
-   $("input[type=radio][name=question1Choice]:checked").prop('checked', false);
-   $("input[type=radio][name=question2Choice]:checked").prop('checked', false);
-   $("input[type=radio][name=question3Choice]:checked").prop('checked', false);
-   $("input[type=radio][name=question4Choice]:checked").prop('checked', false);
-   $("input[type=radio][name=question5Choice]:checked").prop('checked', false);
-   $('#questionsIncomplete').text('');
-   $('#result').text(percentage(score));
-}
-     event.preventDefault();
-});
-});
+ $(".question-header").click(function(){
+   $(".multi-choices").slideToggle("slow");
+ });
+ $("#formid").submit(function(event){
+   event.preventDefault();
+   var q1 = parseInt($("input:radio[name=question-one]:checked").val());
+   var q2 = parseInt($("input:radio[name=question-two]:checked").val());
+   var q3 = parseInt($("input:radio[name=question-three]:checked").val());
+   var q4 = parseInt($("input:radio[name=question-four]:checked").val());
+   var q5 = parseInt($("input:radio[name=question-five]:checked").val());    var final = addition(q1,q2,q3,q4,q5);
+   var percent = (final/100)*100;
+   $("#results").text("You scored " + percent + "%");    if (percent>80 && percent<=100) {
+     $("#grading").text("Excellent Performance");
+   } else if (percent >=50 && percent <=80) {
+     $("#grading").text("Fair Result");
+   } else {
+     $("#grading").text("POOR! Retake Test");
+     $("#clear").show();
+   }
+   window.scrollTo(0,800);  });    $("#clear").click(function(){
+   $(".outputField").empty();
+   $("#clear").hide();
+   window.scrollTo(0,0);
+ });});
