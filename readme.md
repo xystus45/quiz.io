@@ -20,7 +20,7 @@ User chooses an answer from each question
 * User is given a score at the end depending on the answer he/she gave
 
 
-## Deployment
+## Deployment:
 
 have a internet connection and the link to the "test website" from the url
 
