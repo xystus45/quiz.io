@@ -22,7 +22,7 @@ User chooses an answer from each question
 
 ## Deployment:
 
-have a internet connection and the link to the "test website" from the url
+have a internet connection and the link to the "test website" from the Uniform Resource Locator (URL)
 
 ## Built With:
 
