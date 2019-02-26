@@ -14,7 +14,7 @@ One needs a web browser that will accept the u.r.l to run the program online
 
 
 
-## Running the tests
+## Running the tests:
 User chooses an answer from each question
 * User submits answers by choosing any choice
 * User is given a score at the end depending on the answer he/she gave
