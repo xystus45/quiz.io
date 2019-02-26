@@ -9,7 +9,7 @@ get a copy of my url in my github account[https://github.com/xystus45] "xystus45
 one needs a web browser that will accept the u.r.l to run the program online
  examples:
    +chrome
-   +firefox web browser
+   +Firefox Web Browser
    +safari
 
 
