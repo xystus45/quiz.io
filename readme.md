@@ -36,7 +36,7 @@ have a internet connection and the link to the "test website" from the url
 * **XYSTUS NGIGI** - *Initial work* - [javascript] [https://xystus45.github.io/quiz.io/.]
 
 
-## License
+## License:
 
 This project is licensed under the MIT License
 
