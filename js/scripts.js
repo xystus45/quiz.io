@@ -1,3 +1,5 @@
+
+//business logic
 function addition(q1,q2,q3,q4,q5){
  return q1+q2+q3+q4+q5;
 }
@@ -5,6 +7,8 @@ $(document).ready(function(){
  $(".question-header").click(function(){
    $(".multi-choices").slideToggle("slow");
  });
+
+ //userinterface
  $("#formid").submit(function(event){
    event.preventDefault();
    var q1 = parseInt($("input:radio[name=question-one]:checked").val());
